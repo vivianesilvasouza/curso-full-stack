@@ -15,7 +15,7 @@ console.log(artemis)
 
 artemis.speeUp(10)
 artemis.speeUp(15)
-
+/* eks mini kibel */
 console.log(artemis)
 
 
