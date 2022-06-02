@@ -2,7 +2,7 @@ let namePiloto = prompt('qual o nome do piloto(a)?')
 let velocidade = 0
 let escolhervelo = prompt('quanto de velocidade você gostaria de acelerar a nave?')
 
-let confirmar = confirm('a velocidade foi acelerada para ' + escolhervelo + ' km/s')
+let confirmar = confirm(`a velocidade foi acelerada para ${escolhervelo} km/s`)
 
 if (confirmar) {
     velocidade = escolhervelo
@@ -20,4 +20,4 @@ if (velocidade <= 0) {
     alert('velocidade perigosa. controle automatico forçado.')
 }
 
-alert('o nome do piloto(a) é: ' + namePiloto + ' e a velocida da nave é ' + escolhervelo + ' km/s')
+alert(`o nome do piloto(a) é: ${namePiloto} e a velocida da nave é ${escolhervelo} km/s`)
