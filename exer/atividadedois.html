@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const primeiroVeiculo = prompt('qual é o nome do seu veículo ?')
+        const veloPrimeira = prompt('qual a é  velocidade do seu veículo? ')
+
+        const SegundoVeiculo = prompt('qual é o nome do segundo veículo?')
+        const veloSegundo = prompt('qual a é  velocidade do seu veículo? ')
+
+        if (veloPrimeira > veloSegundo) {
+            alert('O veículo ' + primeiroVeiculo + ' é mais rapído que o veículo ' + SegundoVeiculo)
+        } else if (veloSegundo > veloPrimeira) {
+            alert(' o veículo ' + SegundoVeiculo + ' é mais rapído que o veículo ' + primeiroVeiculo)
+        } else {
+            alert(veloPrimeira + 'e' + veloSegundo + ' possui velocidades iguais.')
+        }
+
+    </script>
+</body>
+
+</html>
