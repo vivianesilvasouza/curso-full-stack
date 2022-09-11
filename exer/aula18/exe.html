@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const metro = prompt('Registre um valor em metro: ')
+
+        const conversao = prompt('seu valor é: ' + metro + ' qual valor deseja converter?\n \n1. mm \n2. cm \n3. dm \n4. dam \n5. hm \n6. km ')
+
+        switch (conversao) {
+            case '1':
+                alert('O resultado é: ' + metro + ' mm = ' + metro * 1000 + ' mm')
+                break
+            case '2':
+                alert('O resultado é: ' + metro + ' cm =' + metro * 100 + ' cm')
+                break
+            case '3':
+                alert('O resultado é: ' + metro + ' dm =' + metro * 10 + ' dm')
+                break
+            case '4':
+                alert('O resultado é: ' + metro + ' dam =' + metro / 10 + ' dam')
+                break
+            case '5':
+                alert('O resultado é: ' + metro + ' hm =' + metro / 1000 + ' hm')
+                break
+            case '6':
+                alert('O resultado é: ' + metro + ' km =' + metro / 1000 + ' km')
+                break
+            default:
+                alert('Opção inválida!')
+
+
+        }
+    </script>
+</body>
+
+</html>
